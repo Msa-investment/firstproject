@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            /* border: 10px red solid; */
+            width: 100%;
+            /* position: relative; */
+        }
+        .nav{
+            display: flex;
+            justify-content:center;
+            flex-direction: row-reverse;
+            background-color: rgb(11, 137, 137);
+            color: rgb(243, 160, 160);
+            width: 100%; 
+            position: sticky;
+            top: 0;
+            
+        }
+        .nav p{
+            font-size: 20px;
+            padding: 10px;
+            font-weight: bold;
+        }
+        .hero{
+            background-image: url('./../bg.jpg');
+            height: 100vh;
+            color: white;
+        }
+        .hero h2{
+            padding: 20px 40px;
+            text-align: center;
+        }
+        section{
+            height: 100vh;
+            padding: 20px;
+        }
+        .section-1{            
+            display: flex;
+            text-align: center;
+            padding: 50px 10px;
+            height: 100vh;
+            justify-items: center;
+            background-color: rgb(245, 222, 214);
+           
+        }
+        .section-2{
+            text-align: center;
+            background-color: rgb(141, 80, 255);
+            width: 100%;
+        }
+        section p{
+            text-align: center;
+            font-size: 50px;
+        }
+        footer{
+            background: #000;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>        
+        <div class="hero">
+            <h2 class="">Hero section</h2>
+        </div>         
+    </header>    
+    <section class="section-1">
+        <div>
+            <p>section 1</p>
+        </div>
+    </section>
+    <nav class="nav">
+        <p>Home</p>
+        <p>About</p>
+        <p>story</p>
+        <p>Contact</p>
+    </nav>
+    <section class="section-2">
+        <p>section 2</p>
+    </section>
+    <section class="section-3">
+        <div>
+            <p>section 3</p>
+        </div>
+    </section>
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+</html>
